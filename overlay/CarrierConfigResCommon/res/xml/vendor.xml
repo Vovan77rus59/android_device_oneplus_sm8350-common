@@ -5637,6 +5637,9 @@
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
         <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
+        <int-array name="carrier_nr_availabilities_int_array" num="1">
+            <item value="1" />
+        </int-array>
         <string-array name="mccmnc" num="24">
             <item value="40400" />
             <item value="40402" />
