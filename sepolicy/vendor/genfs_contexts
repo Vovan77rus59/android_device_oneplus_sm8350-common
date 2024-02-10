@@ -1,3 +1,6 @@
+# Charging
+genfscon sysfs /class/power_supply/battery                            u:object_r:vendor_sysfs_battery_supply:s0
+
 # Wakeup
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-10/10-0028/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/990000.i2c/i2c-7/7-004b/wakeup u:object_r:sysfs_wakeup:s0
